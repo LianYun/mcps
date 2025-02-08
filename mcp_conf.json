@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/ccloud/Desktop",
+                "/Users/ccloud/Downloads"
+            ]
+        },
+        "weather": {
+            "command": "node",
+            "args": [
+                "/Users/ccloud/Code/github/lianyun/mcps/weather/build/index.js"
+            ]
+        }
+    }
+}
